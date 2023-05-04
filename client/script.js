@@ -80,7 +80,7 @@ const handleSubmit = async(e) => {
 
     // ftech data from the server
 
-    const response = await fetch('http://localhost:5000', {
+    const response = await fetch('https://chat-uy2e.onrender.com', {
       method : 'POST',
       headers : {
         'Content-Type' : 'application/json'
